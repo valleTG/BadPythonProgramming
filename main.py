@@ -1,6 +1,151 @@
 # Imports
 
 import time
+import math
+
+# Variables
+
+# first_name = "Valle"
+# last_name = "TG"
+# full_name = first_name +" "+ last_name
+# print("Hello " + first_name)
+# print(type(first_name))
+
+# age = 15
+# age += 1
+# print("Your age is:  " + str(age))
+# print(type(age))
+
+# height = 250.5
+# print("Your height is: " + str(height) + "cm")
+# print(type(height))
+
+# human = True
+# print("Are you a human: " + str(human))
+# print(type(human))
+
+# Multiple Assignment
+
+# name = "Valle"
+# age = 15
+# attractive = True
+
+# name, age, attractive = "Valle", 21, True
+
+# print(name)
+# print(age)
+# print(attractive)
+
+# Spongebob = 30
+# Patrick = 30
+# Sandy = 30
+# Squidward = 30
+
+# Spongebob = Patrick = Sandy = Squidward = 30
+
+# print(Spongebob)
+# print(Patrick)
+# print(Sandy)
+# print(Squidward)
+
+# String Methods
+
+# name = "Valle"
+
+# print(len(name))
+# print(name.find("a"))
+# print(name.capitalize())
+# print(name.upper())
+# print(name.lower())
+# print(name.isdigit())
+# print(name.isalpha())
+# print(name.count("a"))
+# print(name.replace("a", "o"))
+# print(name * 3)
+
+# Type Casting
+
+# x = 1  # Int
+# y = 2.0  # Float
+# z = "3"  # String
+
+# x = str(x)
+# y = str(y)
+# z = str(z)
+
+# print(x)
+# print(y)
+# print(z * 3)
+
+# User Input
+
+# name = input("What is your name?; ")
+# age = int(input("How old are you?: "))
+# height = float(input("How tall are you?: "))
+
+# print("Hello " + name)
+# print("You are " + str(age) + " " + "years old")
+# print("You are " + str(height) + "cm tall")
+
+# Math Functions
+
+# pi = 3.14
+# x = 1
+# y = 2
+# z = 3
+
+# print(round(pi))
+# print(math.ceil(pi))
+# print(math.floor(pi))
+# print(abs(pi))
+# print(pow(pi, 2))
+# print(math.sqrt(420))
+# print(max(x, y, z))
+# print(min(x, y, z))
+
+# String Slicing
+
+# name = "Valle TG"
+
+# first_name = name[:3]
+# last_name = name[4:]
+# funky_name = name[::2]
+# reversed_name = name[::-1]
+
+# print(reversed_name)
+
+# website1 = "http://google.com"
+# website2 = "http://wikipedia.com"
+
+# slice = slice(7, -4)
+
+# print(website1[slice])
+# print(website2[slice])
+
+# If Statements§
+
+# age = int(input("How old are you?: "))
+
+# if age == 100:
+#     print("You are a century old!")
+# elif age >= 18:
+#     print("You are an adult!")
+# elif age <0:
+#    print("You haven't been born yet!")
+# else:
+#     print("You are a child!")
+
+# Logical Operators
+
+# temp = int(input("What is the temperature outside?: "))
+
+# if 0 <= temp <= 30:
+#     print("The temperature is good today!")
+#     print("Go outside!")
+
+# elif temp < 0 or temp > 30:
+#    print("The temperature is bad today!")
+#     print("Stay inside!")
 
 # While Loops
 
@@ -115,4 +260,26 @@ import time
 
 # for x in dishes:
 #     print(x)
+
+# Dictionaries
+
+# capitals = {'Sweden': 'Stockholm',
+#             'USA': 'Washington DC',
+#             'China': 'Beijing',
+#             'Russia': 'Moscow'}
+
+# capitals.update({'Germany': 'Berlin'})
+# capitals.update({'USA': 'Las Vegas'})
+# capitals.pop('China')
+# capitals.clear()
+
+# print(capitals["Germany"])
+# print(capitals.get('Germany'))
+# print(capitals.keys())
+# print(capitals.values())
+# print(capitals.items())
+
+# for key, value in capitals.items():
+#     print(key, value)
+
 
