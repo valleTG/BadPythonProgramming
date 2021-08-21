@@ -85,3 +85,34 @@ import time
 # food = [drinks, dinner, dessert]
 
 # print(food[2][1])
+
+# Tuples
+
+# student = ("Valle", 15, "Male")
+
+# print(student.count("Valle"))
+# print(student.index("Male"))
+
+# for x in student:
+#     print(x)
+
+# if "Valle" in student:
+#     print("Valle is here")
+
+# Sets
+
+# utensils = {"Fork", "Spoon", "Knife"}
+# dishes = {"Bowl", "Plate", "Cup", "Knife"}
+
+# utensils.add("Napkin")
+# utensils.remove("Fork")
+# utensils.clear()
+# dishes.update(utensils)
+# dinner_table = utensils.union(dishes)
+
+# print(dishes.difference(utensils))
+# print(utensils.intersection(dishes))
+
+# for x in dishes:
+#     print(x)
+
