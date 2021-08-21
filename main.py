@@ -59,3 +59,29 @@ import time
 
 #     else:
 #         print(i)
+
+# Lists
+
+# food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]
+
+# food[0] = "sushi"
+
+# food.append("ice cream")
+# food.remove("hotdog")
+# food.pop()
+# food.insert(0, "cake")
+# food.sort()
+# food.clear()
+
+# for x in food:
+#     print(x)
+
+# 2D Lists
+
+# drinks = ["coffee", "soda", "tea"]
+# dinner = ["pizza", "hamburger", "hotdog"]
+# dessert = ["cake", "ice cream"]
+
+# food = [drinks, dinner, dessert]
+
+# print(food[2][1])
