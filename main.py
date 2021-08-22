@@ -3,7 +3,6 @@
 import time
 import math
 
-
 # Variables
 
 # first_name = "Valle"
@@ -307,3 +306,15 @@ import math
 
 
 # hello("Linus", "Rudhage",  str(15))
+
+# Return Statements
+
+# def  multiply(number1, number2):
+#    return number1 * number2
+
+
+# num1 = int(input("Enter first number to multiply here: "))
+# num2 = int(input("Enter second number to multiply here: "))
+
+# result = multiply(num1, num2)
+# print(result)
