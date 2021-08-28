@@ -318,3 +318,21 @@ import math
 
 # result = multiply(num1, num2)
 # print(result)
+
+# Keyword Arguments
+
+# def hello(first, middle, last):
+#     print("Hello" + first + " " + middle + " " + last)
+
+
+# hello(last="Valle", middle="T", first="G")
+
+# Nested Function Calls
+
+# num = input("Enter a whole positive number: ")
+# num = float(num)
+# num = abs(num)
+# num = round(num)
+# print(num)
+
+# print(round(abs(float(input("Enter a whole positive number: ")))))
