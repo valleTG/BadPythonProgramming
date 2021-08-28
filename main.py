@@ -3,7 +3,7 @@
 import time
 import math
 
-# Variables
+# Variables ---
 
 # first_name = "Valle"
 # last_name = "TG"
@@ -24,7 +24,7 @@ import math
 # print("Are you a human: " + str(human))
 # print(type(human))
 
-# Multiple Assignment
+# Multiple Assignment ---
 
 # name = "Valle"
 # age = 15
@@ -48,7 +48,7 @@ import math
 # print(Sandy)
 # print(Squidward)
 
-# String Methods
+# String Methods ---
 
 # name = "Valle"
 
@@ -63,7 +63,7 @@ import math
 # print(name.replace("a", "o"))
 # print(name * 3)
 
-# Type Casting
+# Type Casting ---
 
 # x = 1  # Int
 # y = 2.0  # Float
@@ -77,7 +77,7 @@ import math
 # print(y)
 # print(z * 3)
 
-# User Input
+# User Input ---
 
 # name = input("What is your name?; ")
 # age = int(input("How old are you?: "))
@@ -87,7 +87,7 @@ import math
 # print("You are " + str(age) + " " + "years old")
 # print("You are " + str(height) + "cm tall")
 
-# Math Functions
+# Math Functions ---
 
 # pi = 3.14
 # x = 1
@@ -103,7 +103,7 @@ import math
 # print(max(x, y, z))
 # print(min(x, y, z))
 
-# String Slicing
+# String Slicing ---
 
 # name = "Valle TG"
 
@@ -112,7 +112,7 @@ import math
 # funky_name = name[::2]
 # reversed_name = name[::-1]
 
-# print(reversed_name)
+# print(reversed_name) ---
 
 # website1 = "http://google.com"
 # website2 = "http://wikipedia.com"
@@ -122,7 +122,7 @@ import math
 # print(website1[slice])
 # print(website2[slice])
 
-# If Statements§
+# If Statements ---
 
 # age = int(input("How old are you?: "))
 
@@ -135,7 +135,7 @@ import math
 # else:
 #     print("You are a child!")
 
-# Logical Operators
+# Logical Operators ---
 
 # temp = int(input("What is the temperature outside?: "))
 
@@ -147,7 +147,7 @@ import math
 #    print("The temperature is bad today!")
 #     print("Stay inside!")
 
-# While Loops
+# While Loops ---
 
 # name = None
 
@@ -156,7 +156,7 @@ import math
 
 # print("Hello " + name)
 
-# For Loops
+# For Loops ---
 
 # for i in range(10):
 #     print(i + 1)
@@ -172,7 +172,7 @@ import math
 #     time.sleep(1)
 # print("Happy New Year!")
 
-# Nested Loops
+# Nested Loops ---
 
 # rows = int(input("How many rows?: "))
 # columns = int(input("How many columns?: "))
@@ -182,7 +182,7 @@ import math
 #     for j in range(columns):
 #         print(symbol, end="")
 
-# Break, Continue, Pass
+# Break, Continue, Pass ---
 
 # while True:
 #     name = input("Enter your name: ")
@@ -205,7 +205,7 @@ import math
 #     else:
 #         print(i)
 
-# Lists
+# Lists ---
 
 # food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]
 
@@ -221,7 +221,7 @@ import math
 # for x in food:
 #     print(x)
 
-# 2D Lists
+# 2D Lists ---
 
 # drinks = ["coffee", "soda", "tea"]
 # dinner = ["pizza", "hamburger", "hotdog"]
@@ -231,7 +231,7 @@ import math
 
 # print(food[2][1])
 
-# Tuples
+# Tuples ---
 
 # student = ("Valle", 15, "Male")
 
@@ -244,7 +244,7 @@ import math
 # if "Valle" in student:
 #     print("Valle is here")
 
-# Sets
+# Sets ---
 
 # utensils = {"Fork", "Spoon", "Knife"}
 # dishes = {"Bowl", "Plate", "Cup", "Knife"}
@@ -261,7 +261,7 @@ import math
 # for x in dishes:
 #     print(x)
 
-# Dictionaries
+# Dictionaries ---
 
 # capitals = {'Sweden': 'Stockholm',
 #             'USA': 'Washington DC',
@@ -282,7 +282,7 @@ import math
 # for key, value in capitals.items():
 #     print(key, value)
 
-# Indexing
+# Indexing ---
 
 # name = "valle TG!"
 
@@ -297,7 +297,7 @@ import math
 # print(last_name)
 # print(last_character)
 
-# Functions
+# Functions ---
 
 # def hello(first_name, last_name, age):
 #     print("Hello " + first_name + " " + last_name + "!")
@@ -307,7 +307,7 @@ import math
 
 # hello("Linus", "Rudhage",  str(15))
 
-# Return Statements
+# Return Statements ---
 
 # def  multiply(number1, number2):
 #    return number1 * number2
@@ -319,7 +319,7 @@ import math
 # result = multiply(num1, num2)
 # print(result)
 
-# Keyword Arguments
+# Keyword Arguments ---
 
 # def hello(first, middle, last):
 #     print("Hello" + first + " " + middle + " " + last)
@@ -327,7 +327,7 @@ import math
 
 # hello(last="Valle", middle="T", first="G")
 
-# Nested Function Calls
+# Nested Function Calls ---
 
 # num = input("Enter a whole positive number: ")
 # num = float(num)
@@ -336,3 +336,29 @@ import math
 # print(num)
 
 # print(round(abs(float(input("Enter a whole positive number: ")))))
+
+# Variable Scope
+
+# name = "TG"
+
+
+# def display_name():
+#     name = "Valle"
+#     print(name)
+
+
+# display_name()
+# print(name)
+
+# Args
+
+# def add(*args):
+#     args = list(args)
+#     args[0] = 0
+#     sum = 0
+#     for i in args:
+#         sum += i
+#     return sum
+
+
+# print(add(1, 2, 3, 4, 5, 6))
